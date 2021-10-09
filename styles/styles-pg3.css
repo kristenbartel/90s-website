@@ -1,0 +1,196 @@
+body { 
+    background: url(../assets/bg-img4\ copy.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 1
+}
+
+div.header {
+    background-color: rgba(57, 61, 61, .85);
+    top: 5px;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    
+}
+a.index  {
+position: absolute;
+left: 40px;
+margin-top: 10px;
+font-size: 40px;
+font-family: 'Yeseva One', cursive;
+color: white;
+}
+a.nav-pg1  {
+background-color: rgb(156, 232, 224);
+width: 100px;
+height: 100px;
+position: absolute;
+top: 75px;
+left: 80px;
+border-radius: 50%;
+shape-outside: circle();
+clip-path: circle();;
+text-align: center;
+border: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+color: black;
+font-size: 15px;
+font-family: 'Yeseva One', cursive;
+}
+a.nav-pg2   {
+background-color:  rgb(232, 139, 224);
+opacity: 85%;
+width: 100px;
+height: 100px;
+position: absolute;
+top: 75px;
+left: 220px;
+border-radius: 50%;
+shape-outside: circle();
+clip-path: circle();;
+text-align: center;
+border: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+color: black;
+font-size: 15px;
+font-family: 'Yeseva One', cursive;
+}
+a.nav-pg3   {
+background-color: rgb(235, 207, 116);
+opacity: 85%;
+width: 100px;
+height: 100px;
+position: absolute;
+top: 75px;
+left: 360px;
+border-radius: 50%;
+shape-outside: circle();
+clip-path: circle();;
+text-align: center;
+border: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+color: black;
+font-size: 15px;
+font-family: 'Yeseva One', cursive;
+}
+a.nav-pg4   {
+background-color: rgb(148, 235, 130);
+opacity: 85%;
+width: 100px;
+height: 100px;
+position: absolute;
+top: 75px;
+left: 500px;
+border-radius: 50%;
+shape-outside: circle();
+clip-path: circle();;
+text-align: center;
+border: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+color: black;
+font-size: 15px;
+font-family: 'Yeseva One', cursive;
+}
+a.nav-pg5   {
+background-color: rgb(113, 149, 240);
+opacity: 85%;
+width: 100px;
+height: 100px;
+position: absolute;
+top: 75px;
+left: 640px;
+border-radius: 50%;
+shape-outside: circle();
+clip-path: circle();
+text-align: center;
+border: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+color: black;
+font-size: 15px;
+font-family: 'Yeseva One', cursive;
+}
+
+.guide1 {
+    background-color: rgba(235, 207, 116, .75);
+    border: 3px solid rgb(57, 61, 61);
+    border-radius: 20%;
+    width: 700px;
+    height: 700px;
+    float: left;
+    position: absolute;
+    top: 400px;
+    left: 850px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: 'Yeseva One', cursive;
+    font-size: 30px;
+
+}
+.guide2 {
+    background-color: rgba(235, 207, 116, .75);
+    border: 3px solid rgb(57, 61, 61);
+    border-radius: 20%;
+    width: 700px;
+    height: 700px;
+    float: right;
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: 'Yeseva One', cursive;
+    font-size: 30px;
+}
+
+.img-guide1 {
+    border-radius: 50%;
+    shape-outside: circle();
+    clip-path: circle();
+    width: 250px;
+    height: 250px;
+    
+}
+
+.img-guide2 {
+    border-radius: 50%;
+    shape-outside: circle();
+    clip-path: circle();
+    width: 250px;
+    height: 250px;
+    
+}
+
+.title1 {
+    padding-left: 40px;
+}
+
+.title2 {
+    padding-left: 40px;
+}
+
+.para1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.para2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+}

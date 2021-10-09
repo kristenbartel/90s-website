@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Yeseva+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Montserrat&family=Yeseva+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/styles-pg1.css">
+</head>
+
+    <body>
+        <div class="header">
+                <a href="index.html" class="index">Walk Beautifully</a>
+                <a href="1register.html" class="nav-pg1">register</a>
+                <a href="2preview.html" class="nav-pg2">preview</a>
+                <a href="3guides.html" class="nav-pg3">guides</a>
+                <a href="4maps.html" class="nav-pg4">maps</a>
+                <a href="5contact.html" class="nav-pg5">contact</a>
+        </div>
+
+            <fieldset>
+                <legend>About Hiker</legend>
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your full name" required>
+                    </div>
+                    <div>
+                        <label>Hiked before?</label>
+                        <input type="radio" name="before" id="yes" value="yes" required>
+                        <label for="Yes">Yes</label>
+                        <input type="radio" name="before" id="no" value="no">
+                        <label for="No">No</label>
+                    </div>
+                    <div>
+                        <label for="dob">Date of Birth:</label>
+                        <input type="date" id="dob" name="dob">
+                    </div>
+                    <div>
+                        <label for="difficulty">Difficulty Level:</label>
+                        <select name="difficulty" id="difficulty">
+                            <option>--</option>
+                            <option value="beginner">Beginner</option>
+                            <option value="intermediate">Intermediate</option>
+                            <option value="advanced">Advanced</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="preferred length of hike">Length:</label>
+                        <span class="range-caption">1 mile</span>
+                        <input type="range" id="length" name="length" min="1" max="10">
+                        <span class="range-caption">10 miles</span>
+                    </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Contact Information</legend>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div>
+                        <label for="address">Address: </label>
+                        <textarea cols="40" id="address" name="address" ></textarea>
+                    </div>
+                    <div>
+                        <label>Contact method(s):</label>
+                        <input type="checkbox" name="contact" id="emailCheckbox" value="email">
+                        <label for="emailCheckbox">Email</label>
+                        <input type="checkbox" name="contact" id="phoneCheckbox" value="phone">
+                        <label for="phoneCheckbox">Phone</label>
+                    </div>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Identification</legend>
+                    <div>
+                        <label for="avatar">Upload Your ID:</label>
+                        <input type="file" id="ID" name="ID" required>
+                    </div>
+                        <p>Image Preview:<img id="preview" width="300"></p>
+            </fieldset>
+            
+            <div class="submit">
+                <input type="submit" name="submit-button"/>
+            </div>
+       
+            <!-- <fieldset>
+                <select id="season" onselect="getInfo()">
+                    <option value="fall">Fall</option>
+                    <option value="summer">Summer</option>
+                    <option value="winter">Winter</option>
+                    <option value="spring">Spring</option>
+                  </select>
+              </fieldset>   -->
+    </body>
+
+</html>

@@ -1,0 +1,199 @@
+
+    body { 
+        background: url(../assets/bg-img1\ copy.jpg) no-repeat center center fixed; 
+        background-size: cover;
+    }
+
+    div.header {
+        background-color: rgba(57, 61, 61, .85);
+        top: 5px;
+        width: 100%;
+        height: 200px;
+        position: absolute;
+        
+}
+a.index  {
+    position: absolute;
+    left: 40px;
+    margin-top: 10px;
+    font-size: 40px;
+    font-family: 'Yeseva One', cursive;
+    color: white;
+}
+a.nav-pg1  {
+    background-color: rgb(156, 232, 224);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 75px;
+    left: 80px;
+    border-radius: 50%;
+    shape-outside: circle();
+    clip-path: circle();;
+    text-align: center;
+    border: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 15px;
+    font-family: 'Yeseva One', cursive;
+}
+a.nav-pg2   {
+    background-color:  rgb(232, 139, 224);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 75px;
+    left: 220px;
+    border-radius: 50%;
+    shape-outside: circle();
+    clip-path: circle();;
+    text-align: center;
+    border: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 15px;
+    font-family: 'Yeseva One', cursive;
+}
+a.nav-pg3   {
+    background-color: rgb(235, 207, 116);
+    opacity: 85%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 75px;
+    left: 360px;
+    border-radius: 50%;
+    shape-outside: circle();
+    clip-path: circle();;
+    text-align: center;
+    border: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 15px;
+    font-family: 'Yeseva One', cursive;
+}
+a.nav-pg4   {
+    background-color: rgb(148, 235, 130);
+    opacity: 85%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 75px;
+    left: 500px;
+    border-radius: 50%;
+    shape-outside: circle();
+    clip-path: circle();;
+    text-align: center;
+    border: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 15px;
+    font-family: 'Yeseva One', cursive;
+}
+a.nav-pg5   {
+    background-color: rgb(113, 149, 240);
+    opacity: 85%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 75px;
+    left: 640px;
+    border-radius: 50%;
+    shape-outside: circle();
+    clip-path: circle();;
+    text-align: center;
+    border: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 15px;
+    font-family: 'Yeseva One', cursive;
+}
+    legend {
+        background: rgb(57, 61, 61);
+        border-radius: 10px;
+        color: white;
+        padding: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 30px;
+        justify-content: center;
+        font-family: 'Yeseva One', cursive;
+    }
+    
+    fieldset {
+        background: rgba(156, 232, 224, .70);
+        border: 3px solid rgb(57, 61, 61);
+        border-radius: 20%;
+        margin-top: .9cm;
+        color: black;
+        width: 700px;
+        height: 700px;
+        /* justify-content: center; */
+        padding-left: 50px;
+        padding-top: 80px;
+        position: relative;
+        justify-content: ;
+        top: 350px;
+        left: 450px;
+        font-size: 30px;
+        font-family: 'Yeseva One', cursive;
+    }
+    
+    p {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    div {
+        margin: 25px;
+    }
+
+    label {
+        display: inline-block;
+        text-align: right;
+        vertical-align: top;
+        width: 200px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    input[type="radio"]+label, 
+    input[type="checkbox"]+label{
+        width: auto;
+    }
+
+    .range-caption {
+        background: rgb(57, 61, 61);
+        color: white;
+        padding: 8px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    input[type="submit"]{
+        background: rgb(156, 232, 224);
+        border-radius: 10px;
+        color: rgb(57, 61, 61);
+        font-size: 20px;
+        padding: 20px;
+        font-family: 'Montserrat', sans-serif;
+        
+    }
+
+    div.submit {
+        display: absolute;
+        top: 300px;
+    }
+
+    div:hover{
+        color: rgba(57, 61, 61, .75);
+        
+    }
